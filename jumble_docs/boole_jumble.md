@@ -39,3 +39,72 @@ L'algèbre de Boole est une branche des mathématiques qui est utilisée dans de
 L'algèbre de Boole a été inventée par George Boole en 	. Boole était un mathématicien anglais qui s'intéressait à la logique. Il a développé une nouvelle approche de la logique qui était basée sur l'algèbre.
 
 L'algèbre de Boole a été rapidement adoptée par les ingénieurs et les informaticiens. Elle est aujourd'hui une partie essentielle de ces disciplines.
+
+
+# De quoi parle-t-on exactement ?
+
+Un peu comme on fait une addition entre 2 nombres, on peut faire une addition entre octets pour obtenir un résultat. Les opérateurs sont des opérations qui vont être effectuées sur les octets pour obtenir un résultat.
+
+## Opérateur AND
+
+AND  = ET en français. Le résultat sera VRAI si la valeur A **ET** la valeur B sont vraies.
+
+| Valeur A | Valeur B | Résultat |
+| -------- | -------- | --------- |
+| 0        | 0        | 0         |
+| 1        | 0        | 0         |
+| 0        | 1        | 0         |
+| 1        | 1        | 1         |
+
+## Opérateur OR
+
+OR  = OU en français. Le résultat sera VRAI si la valeur A **OU** la valeur B sont vraies.
+
+| Valeur A | Valeur B | Résultat |
+| -------- | -------- | --------- |
+| 0        | 0        | 0         |
+| 1        | 0        | 1         |
+| 0        | 1        | 1         |
+| 1        | 1        | 1         |
+
+## Opérateur XOR
+
+XOR = OU eXclusif Le résultat sera VRAI si la valeur A est vraie **OU** si la valeur B est vraie, mais **pas les 2 en même temps**.
+
+| Valeur A | Valeur B | Résultat |
+| -------- | -------- | --------- |
+| 0        | 0        | 0         |
+| 1        | 0        | 1         |
+| 0        | 1        | 1         |
+| 1        | 1        | 0         |
+
+## Opérateur NAND
+
+NAND = Non ET Le résultat sera exactement l**‘inverse du AND**.
+
+| Valeur A | Valeur B | Résultat |
+| -------- | -------- | --------- |
+| 0        | 0        | 1         |
+| 1        | 0        | 1         |
+| 0        | 1        | 1         |
+| 1        | 1        | 0         |
+
+## Opérateur NOR
+
+NOR = Non OU Le résultat sera exactement l’**inverse du OR**.
+
+| Valeur A | Valeur B | Résultat |
+| -------- | -------- | --------- |
+| 0        | 0        | 1         |
+| 1        | 0        | 0         |
+| 0        | 1        | 0         |
+| 1        | 1        | 0         |
+
+## Opérateur NOT
+
+NOT = Non Le résultat sera exactement l’**inverse de la valeur**
+
+| Valeur | Résultat |
+| ------ | --------- |
+| 0      | 1         |
+| 1      | 0         |
